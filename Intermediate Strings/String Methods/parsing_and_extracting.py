@@ -9,5 +9,5 @@ print(at_position)
 space_position = data.find(" ", at_position)
 print(space_position)
 
-hostname = data[at_position+1: space_position]
+hostname = data[at_position + 1: space_position]
 print(hostname)
